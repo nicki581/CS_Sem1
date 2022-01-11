@@ -1,0 +1,27 @@
+// base code file
+#include "./hfiles/poole.h"
+
+///////////////////////////////////////////////////////////////////////
+
+main(){
+	srand(time(NULL));
+	
+	int height;
+	int width;
+	char zhongli;
+	
+	cout<< "ENter width: ";
+	cin>> width;
+	cout<< "ENter hieght: ";
+	cin>> height;
+	cout<< "Emter symbol: ";
+	cin>> zhongli;
+	
+	for(int x= 0; x<height; x++){
+		for(int y=0; y<width; y++){
+			cout<<zhongli;
+		}
+		cout<<endl;
+	}
+
+}
